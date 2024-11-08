@@ -1,4 +1,5 @@
 import { Route, Routes } from "react-router";
+import CreateEvent from "../Components/CreateEvent";
 
 
 
@@ -7,8 +8,8 @@ import { Route, Routes } from "react-router";
 const route = ()=>{
     return(
         <Routes>
-          
-             
+        
+        <Route path="/" element={<CreateEvent/>} />
 
         </Routes>
     )

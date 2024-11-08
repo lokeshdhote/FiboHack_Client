@@ -1,5 +1,4 @@
-
-
+import Route from './Routes/route'
 import './App.css'
 
 function App() {
@@ -7,7 +6,7 @@ function App() {
 
   return (
     <>
-      
+   <Route/>
     </>
   )
 }
