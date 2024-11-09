@@ -168,7 +168,8 @@ const [twitter, setTwitter] = useState('');
             />
             {errors.banner && <p className="text-red-500 text-sm">{errors.banner}</p>}
           </div>
-
+          <hr />
+<br />
           {/* // Event Information Section */}
           <h3 className="text-2xl font-bold text-gray-800 mt-8 ">Event Information</h3>
           <p className="text-gray-600 mb-2">Give some specific information about your awesome event.</p>
@@ -255,7 +256,8 @@ const [twitter, setTwitter] = useState('');
           {errors.agenda && <p className="text-red-500 text-xs mt-1">{errors.agenda}</p>}
         </div>
       </div>
-
+      <hr />
+<br />
           {/* Sponsor Details */}
           <h3 className="text-2xl font-bold text-gray-800 mt-8 mb-4">Sponsor Details</h3>
           {sponsors.map((sponsor, index) => (
@@ -292,7 +294,8 @@ const [twitter, setTwitter] = useState('');
           >
             Add Sponsor
           </button>
-
+          <hr />
+<br />
 {/* //////////////////////////////////////////// */}
           {/* Event Date */}
           <h3 className="text-2xl font-bold text-gray-800 mt-8 mb-4">Event Contact</h3>
@@ -394,8 +397,8 @@ const [twitter, setTwitter] = useState('');
           {errors.zipCode && <p className="text-red-500 text-xs mt-1">{errors.zipCode}</p>}
         </div>
       </div>
-
-      
+<hr />
+      <br />
 
 {/* /////////////////////////// */}
        {/* Social Links */}
